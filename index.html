@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1><a href="#">Event Planner</a></h1>
+    <main>
+      <article id="events">
+        <h2>Upcoming Events</h2>
+        <section id="eventList"></section>
+      </article>
+      <article id="event">
+        <h2>Event Details</h2>
+        <article id="eventDetails"></article>
+        <section id="guests">
+          <h3>Guests</h3>
+          <ul id="guestList"></ul>
+        </section>
+      </article>
+      <form>
+        <h2>Add New Event</h2>
+        <div>
+          <label>Name</label>
+          <input name="name" />
+        </div>
+        <div>
+          <label>Description</label>
+          <input name="description" />
+        </div>
+        <div>
+          <label>Date</label>
+          <input name="date" />
+        </div>
+        <div>
+          <label>Location</label>
+          <input name="location" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
